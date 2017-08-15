@@ -19,3 +19,5 @@ Functions:
 5. Administrator can create his own newsletter and send it to subscribers
 6. Administrator can add your game's charecters to page "About Me" using temlate in HTML-code
 7. Administrator can customize pagination AND other styles of Website
+
+P.S. To make possible comments, newsletter, adding user's pictures in Wordpress you have to add to your Website next plugins: Epoch (comments), MailPoet 2(newsletter), WP Mail SMTP Plugin by Mail Bank(to automatically send e-mail to user when he register), WP User Avatar(user's picture), WP-PageNavi(pagination).
