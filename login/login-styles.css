@@ -1,0 +1,107 @@
+body.login{
+	background:url("../img/login_registration_background.jpg");
+	background-size:cover;
+	color:rgb(255,164,60);
+}
+
+.login .button-primary{
+	float:none;
+	width:100%;
+	margin-top:80px;
+	background:rgb(113,1,0);
+	border:3px solid rgb(174,164,163);
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	-o-border-radius:7px;
+	border-radius:7px;
+	font-weight:bold;
+	color:rgb(255,164,60);
+	font-size:17px;
+	text-shadow: 0 -1px 1px black, 1px 0 1px black, 0 1px 1px black, -1px 0 1px black;
+}
+
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large{
+	height:35px;
+}
+
+input[type=checkbox]:checked:before{
+	content:"\f147";
+	margin:-20px -5 0 0px;
+	color:rgb(255,164,60);
+}
+
+.wp-core-ui .button-primary{
+	border-color: none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	text-shadow:none;
+}
+
+.login{
+	text-align: center;
+}
+
+.login label{
+	color:rgb(255,164,60);
+	text-shadow: 0 -1px 1px black, 1px 0 1px black, 0 1px 1px black, -1px 0 1px black;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.login form input[type=checkbox]{
+	background:rgba(0,0,0,0.8);
+	border:3px solid rgb(174,164,163);
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+	width:20px;
+	height:20px;
+}
+
+.login h1 > a{
+	display: none;
+}
+
+p.forgetmenot{
+	position:absolute;
+	margin-top:120px;
+}
+
+.login form{
+	background:transparent;
+	margin-top:20%;
+}
+
+.login #login_error, .login .message{
+	display:none;
+}
+
+.login form .input{
+	background:rgba(0,0,0,0.8);
+	border:3px solid rgb(174,164,163);
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	-o-border-radius:7px;
+	border-radius:7px;
+	font-size:17px;
+	padding:5px 20px;
+	color:rgb(174,164,163);
+}
+
+.wp-core-ui .button-primary.focus, 
+.wp-core-ui .button-primary.hover, 
+.wp-core-ui .button-primary:focus, 
+.wp-core-ui .button-primary:hover{
+	background:#CE0000;
+	border:3px solid #CFCFCF;
+	color:#FFCC00;
+}
+
+.login #nav{
+	margin-top:-10px;
+}
+
+.login #backtoblog a, .login #nav a{
+	color:rgb(255,164,60);
+}
